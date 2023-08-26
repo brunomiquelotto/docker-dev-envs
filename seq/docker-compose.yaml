@@ -1,0 +1,13 @@
+version: '3.3'
+services:
+    seq:
+        image: datalust/seq
+        container_name: seq
+        restart: unless-stopped
+        environment:
+            - ACCEPT_EULA=Y
+        volumes:
+            - './data:/data'
+        ports:
+            - '8000:80'
+            - '5341:5341'

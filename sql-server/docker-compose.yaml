@@ -1,0 +1,13 @@
+version: '3.4'
+services:
+  sql_server:
+    image: mcr.microsoft.com/mssql/server:2017-latest-ubuntu
+    container_name: sql_server
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: "local_password#123"
+      MSSQL_PID: Express
+    ports:
+      - "1433:1433"
+    volumes:
+      - ./sqlserver:/var/opt/mssql/data

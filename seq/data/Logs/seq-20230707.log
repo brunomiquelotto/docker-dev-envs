@@ -1,0 +1,8 @@
+{"@t":"2023-07-07T20:33:57.1070446Z","@mt":"Seq {SeqVersion} running on OS {OSCaption}","SeqVersion":"2023.1.9229","OSCaption":"Linux 5.10.16.3-microsoft-standard-WSL2 #1 SMP Fri Apr 2 22:23:49 UTC 2021","SourceContext":"Seq.Server.Features.Diagnostics.EnvironmentInformationWriter"}
+{"@t":"2023-07-07T20:33:57.1527628Z","@mt":"Seq detected {TotalRAM} MB of RAM","TotalRAM":12884.56192,"SourceContext":"Seq.Server.Features.Diagnostics.EnvironmentInformationWriter"}
+{"@t":"2023-07-07T20:33:57.5214831Z","@mt":"Opening event store at {StreamPath}","StreamPath":"/data/Stream/stream.flare","SourceContext":"Seq.Engine.Cluster.StorageNodeCoordinator"}
+{"@t":"2023-07-07T20:33:57.6057658Z","@mt":"Ingestion enabled","SourceContext":"Seq.Engine.Cluster.StorageNodeCoordinator"}
+{"@t":"2023-07-07T20:33:57.6179493Z","@mt":"Opening metastore {MetastorePath}","MetastorePath":"/data/Documents/metastore.flare","SourceContext":"Quince.Storage.Native.NativeDocumentStore"}
+{"@t":"2023-07-07T20:33:57.6851597Z","@mt":"Storage subsystem available"}
+{"@t":"2023-07-07T20:33:57.7489187Z","@mt":"Seq listening on {ListenUris}","ListenUris":["http://localhost/","https://localhost/","http://localhost:5341/","https://localhost:45341/"]}
+{"@t":"2023-07-07T20:34:57.7762798Z","@mt":"{CollectionCount} more generation 2 garbage collection(s) occurred","CollectionCount":0,"SourceContext":"Seq.Server.Features.Diagnostics.GCLogger"}
